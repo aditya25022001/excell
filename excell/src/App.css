@@ -1,0 +1,44 @@
+#register_form,
+#apply_form,
+#apply_success {
+  width: 28%;
+  margin-top: 5%;
+}
+#search_form {
+  display: flex;
+  flex-direction: row;
+}
+#input_form {
+  width: 30%;
+  margin-right: 2%;
+}
+#image_job {
+  width: 30%;
+}
+#apply {
+  width: 50%;
+}
+@media screen and (max-width: 70em) {
+  #register_form,
+  #apply_form,
+  #apply_success {
+    width: 80%;
+  }
+  #image_job {
+    width: 100%;
+  }
+  #search_form {
+    align-items: center;
+  }
+  #input_form {
+    width: 60%;
+    margin-right: 1.2%;
+  }
+  #company,
+  #type {
+    display: none;
+  }
+  #apply {
+    width: 100%;
+  }
+}
